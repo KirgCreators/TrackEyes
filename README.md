@@ -24,7 +24,7 @@ roscore
 ### 2. **Connect to Arduino via rosserial**
 
 ```bash
-rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=57600
+rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600
 ```
 
 > ⚠️ Replace `/dev/ttyUSB0` with the correct port if different on your system.
